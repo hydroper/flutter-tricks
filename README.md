@@ -18,7 +18,11 @@
 
 ```dart
 var obs = ObservableList.from([initialValue]);
-obs.changes.listen(([value = 0]) {
+obs.changes.listen(([value?]) {
   // changed
 });
+
+// peek/mutation
+obs[0];
+obs[0] = someValue;
 ```
