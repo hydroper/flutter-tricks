@@ -10,7 +10,7 @@
 - [ObservableList](https://pub.dev/documentation/observable/latest/observable/ObservableList-class.html) from `observable`:
 
 ```dart
-var obs = ObservableList<int>.from([initialValue]);
+var obs = ObservableList.from([initialValue]);
 obs.changes.listen(([value = 0]) {
   // changed
 });
