@@ -18,7 +18,7 @@
 
 ```dart
 var obs = ObservableList.from([initialValue]);
-obs.changes.listen(([value?]) {
+obs.changes.listen(([value = 0]) { // ignore the `= 0`
   // changed
 });
 
