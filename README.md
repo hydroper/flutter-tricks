@@ -1,5 +1,9 @@
 # Flutter Tricks
 
+## Dart
+
+- [Basics](./dart-basics.md)
+
 ## Widgets
 
 - [InheritedWidget](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html)
