@@ -6,10 +6,10 @@ Syntax:
 T Function(params)
 ```
 
-Note `Function` is a special word here.
+> Note `Function` is a keyword in this context.
 
 Example:
 
-```
+```dart
 void Function()? callback;
 ```
