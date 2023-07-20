@@ -2,11 +2,14 @@
 
 ## Dart
 
-- [Basics](./dart-basics.md)
+- [Function Types](./dart/function-types.md)
+- [Type Alias](./dart/type-alias.md)
+- [Lambda Destructuring](./dart/lambda-destructuring.md)
 
 ## Widgets
 
 - [InheritedWidget](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html)
+  - Used for application-widely shared data. Use of observables as below might be useful.
 
 ## Observability and Async. Streams
 
